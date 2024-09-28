@@ -39,7 +39,7 @@ function App() {
           index
           element={
             <>
-              <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Dashboard | VroomCare" />
               <ECommerce />
             </>
           }
@@ -48,7 +48,7 @@ function App() {
           path="/calendar"
           element={
             <>
-              <PageTitle title="Calendar | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Calendar | VroomCare " />
               <Calendar />
             </>
           }
@@ -57,7 +57,7 @@ function App() {
           path="/tables"
           element={
             <>
-              <PageTitle title="Tables | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Tables | VroomCare " />
               <Tables />
             </>
           }
@@ -66,7 +66,7 @@ function App() {
           path="/tables/services"
           element={
             <>
-              <PageTitle title="Tables | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Tables | VroomCare " />
               <TableTwo/>
             </>
           }
@@ -75,7 +75,7 @@ function App() {
           path="/tables/bookings"
           element={
             <>
-              <PageTitle title="Tables | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Tables | VroomCare " />
               <TableThree />
             </>
           }
@@ -84,7 +84,7 @@ function App() {
           path="/settings"
           element={
             <>
-              <PageTitle title="Settings | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Settings | VroomCare " />
               <Settings />
             </>
           }
@@ -93,7 +93,7 @@ function App() {
           path="/chart"
           element={
             <>
-              <PageTitle title="Basic Chart | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Basic Chart | VroomCare " />
               <Chart />
             </>
           }
@@ -102,7 +102,7 @@ function App() {
           path="/ui/alerts"
           element={
             <>
-              <PageTitle title="Alerts | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Alerts | VroomCare " />
               <Alerts />
             </>
           }
@@ -111,7 +111,7 @@ function App() {
           path="/ui/buttons"
           element={
             <>
-              <PageTitle title="Buttons | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Buttons | VroomCare " />
               <Buttons />
             </>
           }
@@ -120,7 +120,7 @@ function App() {
           path="/auth/signin"
           element={
             <>
-              <PageTitle title="Signin | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Signin | VroomCare " />
               <SignIn />
             </>
           }
@@ -129,7 +129,7 @@ function App() {
           path="/auth/signup"
           element={
             <>
-              <PageTitle title="Signup | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Signup | VroomCare" />
               <SignUp />
             </>
           }
