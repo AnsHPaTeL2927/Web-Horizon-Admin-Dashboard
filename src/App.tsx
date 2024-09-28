@@ -14,6 +14,9 @@ import Tables from './pages/Tables';
 import Alerts from './pages/UiElements/Alerts';
 import Buttons from './pages/UiElements/Buttons';
 import DefaultLayout from './layout/DefaultLayout';
+import TableOne from './components/Tables/TableOne';
+import TableTwo from './components/Tables/TableTwo';
+import TableThree from './components/Tables/TableThree';
 
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
@@ -65,6 +68,24 @@ function App() {
             <>
               <PageTitle title="Tables | TailAdmin - Tailwind CSS Admin Dashboard Template" />
               <Tables />
+            </>
+          }
+        />
+        <Route
+          path="/tables/services"
+          element={
+            <>
+              <PageTitle title="Tables | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <TableTwo/>
+            </>
+          }
+        />
+        <Route
+          path="/tables/bookings"
+          element={
+            <>
+              <PageTitle title="Tables | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <TableThree />
             </>
           }
         />
