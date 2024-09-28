@@ -2,7 +2,7 @@ import { ApexOptions } from 'apexcharts';
 import React, { useState } from 'react';
 import ReactApexChart from 'react-apexcharts';
 
-interface ChartThreeState {
+interface ChartFourState {
   series: number[];
 }
 
@@ -49,8 +49,8 @@ const options: ApexOptions = {
   ],
 };
 
-const ChartThree: React.FC = () => {
-  const [state, setState] = useState<ChartThreeState>({
+const ChartFour: React.FC = () => {
+  const [state, setState] = useState<ChartFourState>({
     series: [65, 34, 12, 56],
   });
 
@@ -67,7 +67,7 @@ const ChartThree: React.FC = () => {
       <div className="mb-3 justify-between gap-4 sm:flex">
         <div>
           <h5 className="text-xl font-semibold text-black dark:text-white">
-            Visitors Analytics
+            Servive Popularity
           </h5>
         </div>
         <div>
@@ -123,7 +123,7 @@ const ChartThree: React.FC = () => {
           <div className="flex w-full items-center">
             <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-primary"></span>
             <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
-              <span> Desktop </span>
+              <span> Vehical Service </span>
               <span> 65% </span>
             </p>
           </div>
@@ -132,7 +132,7 @@ const ChartThree: React.FC = () => {
           <div className="flex w-full items-center">
             <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-[#6577F3]"></span>
             <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
-              <span> Tablet </span>
+              <span> Service Type </span>
               <span> 34% </span>
             </p>
           </div>
@@ -141,7 +141,7 @@ const ChartThree: React.FC = () => {
           <div className="flex w-full items-center">
             <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-[#8FD0EF]"></span>
             <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
-              <span> Mobile </span>
+              <span> Customer Segment </span>
               <span> 45% </span>
             </p>
           </div>
@@ -150,7 +150,7 @@ const ChartThree: React.FC = () => {
           <div className="flex w-full items-center">
             <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-[#0FADCF]"></span>
             <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
-              <span> Unknown </span>
+              <span> Geographic Region </span>
               <span> 12% </span>
             </p>
           </div>
@@ -160,4 +160,4 @@ const ChartThree: React.FC = () => {
   );
 };
 
-export default ChartThree;
+export default ChartFour;
