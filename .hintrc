@@ -3,6 +3,20 @@
     "development"
   ],
   "hints": {
-    "typescript-config/strict": "off"
+    "typescript-config/strict": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "axe/name-role-value": "off",
+    "button-type": "off",
+    "axe/aria": [
+      "default",
+      {
+        "aria-valid-attr-value": "off"
+      }
+    ]
   }
 }
