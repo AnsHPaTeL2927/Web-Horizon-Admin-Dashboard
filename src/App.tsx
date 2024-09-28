@@ -54,15 +54,6 @@ function App() {
           }
         />
         <Route
-          path="/profile"
-          element={
-            <>
-              <PageTitle title="Profile | TailAdmin - Tailwind CSS Admin Dashboard Template" />
-              <Profile />
-            </>
-          }
-        />
-        <Route
           path="/tables"
           element={
             <>
